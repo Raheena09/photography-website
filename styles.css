@@ -1,0 +1,371 @@
+.add{
+    background-color:#ffff ;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#whole{
+    z-index: 7;
+}
+
+
+
+
+#banner{
+    background: url("hero_man1.webp")right;
+    background-color: #0E0E0E;
+    background-repeat: no-repeat;
+    height: 1000px;
+    
+    
+    
+}
+#nav{
+    list-style-type: none;
+    display: flex;
+    column-gap: 40px;
+    justify-content: center;
+    color:white;
+    font-weight: bold;
+    margin-top: -20px;
+   
+
+
+}
+#navigator{
+  
+    margin-left: 185px;
+    display: flex;
+    /* margin-top: -37px; */
+    padding-top: 33px;
+    padding-left: 194px;
+    column-gap: 40px;
+}
+
+
+#top{
+    padding: 20px 78px;
+    display: flex;
+    transition: 0.4s;
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+    
+    
+}
+#contact{
+    padding: 20px 40px;
+    display:inline-block;
+    margin-top: -30px;
+    
+}
+.btn{
+    background-color: #F04E3C;
+    color: white;
+    
+}
+ul{
+    list-style: none;
+}
+#first{
+    color: #F04E3C ;
+    font-size: 27px;
+    padding: 20px;
+}
+#second{
+    color: white;
+    font-size: 47px;
+    font-weight: bold;
+    padding:20px
+}
+#content{
+    padding-top: 200px;
+        padding-left: 50px;
+}
+#portfolio{
+    padding:20px 20px;
+    display:inline-block;
+    margin:20px;
+    
+
+}
+#page2{
+    
+    
+    background-color: #121212;
+    display: flex;
+   padding: 100px 50px 100px 50px;
+    column-gap: 270px ;
+    flex-wrap: nowrap;
+
+
+
+}
+
+@media(max-width:800px){
+    #page2{
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+}
+
+.zoom{
+    
+    transition: 0.5s all ease-in-out;
+}
+
+.zoom:hover {
+    
+
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+   
+
+  }
+#emailhr{
+    width: 200px;
+    border: 1px solid #F04E3C;
+    }
+    
+
+#experience{
+    color: white;
+font-size: 50px;
+font-weight: bolder;
+margin-top: 20px;
+
+}
+#right2{
+    color: white;
+    
+}
+#right2name{
+    position: relative;
+}
+#rightline{
+    position: absolute;
+    top: 26px;
+    left: 148px;
+    width: 77px;
+}
+#five{
+    display: grid;
+    grid-template-columns: auto auto ;
+    color: white;
+    padding-right: 20px;
+    padding-top: 10px;}
+#page3{
+    padding: 50px ;
+    background-color: #0E0E0E;
+    /* height: 650px; */
+    display: flex;
+     padding-left: 46px;
+    padding-top: 74px;
+    grid-column-gap: 92px;
+    flex-wrap:nowrap ;
+}
+@media(max-width:900px){
+    #page3{
+        flex-wrap:wrap ;
+        overflow: hidden;
+    }
+    
+}
+
+
+
+
+
+#part1{
+    display: flex;
+    flex-wrap:nowrap ;
+
+    
+}
+@media(max-width:900px){
+    #part1{
+        flex-wrap:wrap ;
+        overflow: hidden;
+    }
+    
+}
+
+
+#part2{
+    display: flex;
+    /* grid-template-columns: auto auto auto; */
+    margin-top: -4px;
+}
+@media(max-width:900px){
+    #part2{
+        flex-wrap:wrap ;
+        overflow: hidden;
+    }
+    
+}
+
+
+#page6{
+    margin-top: -4px;
+    background-color: #0E0E0E;
+    height: 700px;
+    background-image: url('brand_shape.webp');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    display: flex;
+    padding: 100px 40px;
+flex-flow: row;   
+
+
+
+}
+
+@media(max-width:1200px){
+    #page6{
+flex-flow: column;      
+  overflow: hidden;
+    }
+    
+}
+
+#left_second{
+    display: flex;
+     padding: 121px 0px; ; 
+      column-gap: 40px; 
+      margin-left: 31px; 
+
+}
+
+
+#right_first{
+    display: flex; 
+    column-gap: 40px;   
+      
+    margin-left: 38px;
+      flex-wrap: nowrap;
+/*  */
+}
+
+/* @media(max-width:900px){
+    #right_first{
+        flex-wrap:wrap ;
+        overflow: hidden;
+    }
+    
+} */
+
+#right_second{
+    display: flex;
+     column-gap: 40px;
+      padding: 40px;
+      /* flex-wrap: nowrap; */
+
+}
+/* @media(max-width:900px){
+    #right_second{
+        flex-wrap:wrap ;
+        overflow: hidden;
+    }
+    
+} */
+
+
+.brand_photo{
+    padding: 50px;
+    border: rgba(128, 128, 128, 0.616)  solid 1px;
+    text-align: center;
+}
+
+#page7{
+    background-color: #121212;
+    height: 250px;
+    padding: 100px;
+}
+#page8{
+background-color: #0E0E0E;
+background-image: url('blog_shape.webp');
+background-repeat: no-repeat;
+    background-position: right bottom;
+height: 700px;
+padding: 100px;
+}
+#page8_images{
+    display: grid;
+grid-template-columns: auto auto auto;
+}
+
+#image1{
+    position: relative;
+     }
+
+#des1{
+    background-color: #121212;
+    display: inline-block;
+    padding: 41px;
+    position: absolute;
+    bottom: -34px;
+    left: 20px;
+}
+
+#image_description{
+    background-color: #121212;
+    padding: 43px;
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 131px;
+}
+
+#page9{
+    background-color: #121212;
+    height: 300px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 100px;
+
+}
+#footer_line{
+    width: 70px;
+    margin-top: 6px;
+     margin-left: 5px;
+}
+.padding{
+    margin-left: 20px;
+}
+
+
+/* for scroll to top */
+.back-to-top {
+    font-size: 20px;
+    color: #fff;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    background-color: black;
+    text-align: center;
+    z-index: 99;
+    height: 60px;
+    width: 60px;
+    padding-bottom:  10px;
+    border-radius: 50px;
+    -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  display: none; 
+}
+  .back-to-top:hover {
+    color: #fff;
+    background-color: maroon; }
+      .back-to-top span
+      {
+        font-size: 10px;
+        color: #fff;
+       margin-left:  -19px ;
+       margin-top: 5px;
+      }
